@@ -20,3 +20,6 @@ class Solution:
         if y == result:
             return True
         return False
+
+    def adv(self, x):
+        return (str(x)==str(x)[::-1])
